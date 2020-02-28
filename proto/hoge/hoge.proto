@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package hoge;
+
+// The greeting service definition.
+
+// The request message containing the user's name.
+message HogeRequest {
+  string name = 1;
+}
+

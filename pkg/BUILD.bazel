@@ -1,0 +1,8 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = ["greeting.go"],
+    importpath = "github.com/Bo0km4n/sample-go-grpc-with-bazel/pkg",
+    visibility = ["//visibility:public"],
+)
